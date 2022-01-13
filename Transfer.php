@@ -127,8 +127,8 @@
 
       if ($query) {
         echo "<script> alert('Transaction Successful');
-                                     window.location='transactionhistory.php';
-                           </script>";
+            window.location='transactionhistory.php';
+        </script>";
       }
 
       $newbalance = 0;
