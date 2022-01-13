@@ -1,6 +1,6 @@
 # SparkIntern
-# SQL Query
-## Info Table
+## SQL Query
+### Info Table
 
 ```sql
 CREATE TABLE `info` (
@@ -28,7 +28,7 @@ CREATE TABLE `info` (
     </tbody>
 </table>
 
-## Transaction Table
+### Transaction Table
 ```sql
 CREATE TABLE `transaction` (
   `sno` int(3) NOT NULL AUTO_INCREMENT,
