@@ -1,7 +1,7 @@
 # SparkIntern
 ## SQL Query
-### Info Table
 
+### Info Table
 ```sql
 CREATE TABLE `info` (
   `Id` int(3) NOT NULL AUTO_INCREMENT,
@@ -27,6 +27,7 @@ CREATE TABLE `info` (
         </tr>
     </tbody>
 </table>
+<hr>
 
 ### Transaction Table
 ```sql
