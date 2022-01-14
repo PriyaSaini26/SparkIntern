@@ -155,7 +155,7 @@
         $nums = mysqli_num_rows($query);               // to get the no. of rows in data fetched from database.
         while ($result = mysqli_fetch_array($query)) {
         ?>
-          <option><?php echo $result['Id'], $result['Name'], $result['Email'], $result['Balance'] ?> </option>
+          <option value="<?php echo $result['Id']; ?>"><?php echo $result['Id'], $result['Name'], $result['Email'], $result['Balance'] ?> </option>
         <?php
         }
         ?>
@@ -173,7 +173,7 @@
         $nums = mysqli_num_rows($query);               // to get the no. of rows in data fetched from database.
         while ($result = mysqli_fetch_array($query)) {
         ?>
-          <option><?php echo $result['Id'], $result['Name'], $result['Email'], $result['Balance'] ?> </option>
+          <option value="<?php echo $result['Id']; ?>"><?php echo $result['Id'], $result['Name'], $result['Email'], $result['Balance'] ?> </option>
         <?php
         }
         ?>
